@@ -17,6 +17,8 @@ namespace MedicOS.Interface
         /// </summary>
         static void Main()
         {
+            log4net.Config.XmlConfigurator.Configure();
+            log.Debug("-------");
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 

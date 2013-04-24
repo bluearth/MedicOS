@@ -41,7 +41,7 @@
             // 
             this.serviceInstaller.Description = "MedicOS Interface";
             this.serviceInstaller.DisplayName = "MedicOS Interface";
-            this.serviceInstaller.ServiceName = "MedicOS Interface";
+            this.serviceInstaller.ServiceName = "MedicOS";
             // 
             // ProjectInstaller
             // 
